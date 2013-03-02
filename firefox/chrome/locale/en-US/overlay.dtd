@@ -1,0 +1,8 @@
+<!ENTITY stoppity.label "Your localized menuitem">
+<!ENTITY stoppityContext.label "Your Menuitem">
+<!ENTITY stoppityContext.accesskey "Y">
+<!ENTITY stoppityToolbarButton.label "Your Toolbar Button">
+<!ENTITY stoppityToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY stoppitySidebar.label "Your Sidebar">
+<!ENTITY stoppityToolbar.name  "example">
+<!ENTITY stoppityToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &stoppityToolbar.name;">

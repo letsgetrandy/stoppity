@@ -1,0 +1,26 @@
+{
+	"name": "Stoppity Poppity",
+	"version": "1.4",
+	"description": "Stop those irritating popups that interrupt you when you're reading.",
+	"background_page": "background.html",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"page_action": {
+		"default_icon": "icon.png",
+		"default_title": "A lightbox was blocked on this page"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*"],
+			"js": ["jquery-1.5.1.js","stoppity.js"],
+			"run_at": "document_end",
+			"all_frames": true
+		}
+	],
+	"permissions": [
+		"cookies", "tabs"
+	]
+}

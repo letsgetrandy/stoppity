@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://stoppity/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://stoppity/locale/overlay.dtd">
+<overlay id="stoppity-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script src="overlay.js" />
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="stoppity-strings" src="chrome://stoppity/locale/overlay.properties"/>
+    </stringbundleset>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="stoppity-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+        label="&stoppityToolbarButton.label;" tooltiptext="&stoppityToolbarButton.tooltip;"
+        oncommand="stoppity.onToolbarButtonCommand()"/>
+    </toolbarpalette>
+</overlay>
