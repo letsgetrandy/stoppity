@@ -1,11 +1,15 @@
 // remove script tags matching the following patterns
-var rx1 = new RegExp('wp-content/plugins/pippity');
-var rx2 = new RegExp('clickfuse.com');
-
-var sc = window.document.getElementsByTagName('script');
-for (scr in sc) {
-	if (rx1.test(scr.src) || rx2.test(scr.src))
-		scr.src = '';
+var patterns = [
+    'wp-content/plugins/pippity',   // pippity poppity
+    'clickfuse.com'                 // clickfuse
+];
+var scripts = window.document.getElementsByTagName('script');
+for (scriptfile in scripts) {
+    for (pattern in patterns) {
+        var rx = new RegExp(pattern);
+        if (rx.text(scriptfile.src))
+            scriptfile.src = '';
+    }
 }
 
 var classes = [
