@@ -1,4 +1,5 @@
 {
+    "manifest_version": 2,
 	"name": "Stoppity Poppity",
 	"version": "1.4",
 	"description": "Stop those irritating popups that interrupt you when you're reading.",
@@ -12,14 +13,6 @@
 		"default_icon": "icon.png",
 		"default_title": "A lightbox was blocked on this page"
 	},
-	"content_scripts": [
-		{
-			"matches": ["http://*/*"],
-			"js": ["jquery-1.5.1.js","stoppity.js"],
-			"run_at": "document_end",
-			"all_frames": true
-		}
-	],
 	"permissions": [
 		"cookies", "tabs"
 	]

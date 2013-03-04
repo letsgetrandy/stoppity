@@ -1,2 +1,4 @@
 .DS_Store
-Stoppity.xpi
+*.xpi
+*.crx
+tmp
