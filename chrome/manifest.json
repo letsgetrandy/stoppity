@@ -1,19 +1,33 @@
 {
     "manifest_version": 2,
-	"name": "Stoppity Poppity",
-	"version": "1.4",
-	"description": "Stop those irritating popups that interrupt you when you're reading.",
-	"background_page": "background.html",
-	"icons": {
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
-	},
-	"page_action": {
-		"default_icon": "icon.png",
-		"default_title": "A lightbox was blocked on this page"
-	},
-	"permissions": [
-		"cookies", "tabs"
-	]
+
+    "name": "Stoppity Poppity",
+    "description": "Stop those irritating popups that interrupt you when you're reading.",
+    "version": "2.0",
+
+    "permissions": [
+        "cookies", "tabs"
+    ],
+
+    "background": { "scripts": ["bg.js"] },
+
+    "content_scripts": [
+        {
+            "matches" : [ "http://*/*", "https://*/*" ],
+            "js": ["stoppity.js"]
+        }
+    ],
+
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+
+    "page_action": {
+        "default_icon": {
+            "19": "icon.png"
+        },
+        "default_title": "A lightbox was blocked on this page"
+    }
 }
