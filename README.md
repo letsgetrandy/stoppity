@@ -1,9 +1,6 @@
 Stoppity Poppity
 ================
 
-Description
------------
-
 Stoppity Poppity browser extension -- automatically closes or removes 
 automated in-page modal lightbox popups.
 
