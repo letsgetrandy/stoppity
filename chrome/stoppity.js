@@ -22,10 +22,16 @@ var ids = [
     'mod_wrapper',                  // modal wrapper
     'AdSpotMovie',                  // AdSpot
     'shortTail_D30_modal',          // short tail
-    'cf_slideout_container'         //
+    'cf_slideout_container',        //
+    'lbOverlay',
+    'lbCenter',
+    'lbBottomContainer',
+    'TB_window',
+    'TB_overlay'
 ];
 var childids = [
-    'rm_modal'                      // ringtone maker
+    'rm_modal',                    // ringtone maker
+    'altsocial_splash'
 ];
 //var cryptic_ids = [
 //    'popForm'

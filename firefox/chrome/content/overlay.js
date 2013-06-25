@@ -35,17 +35,23 @@ var stoppity = {
         }
 
         var classes = [
-            'popup-dom-lightbox-wrapper',	// popup domination
-            'jqmWindow'				        // jqm ads
+            'popup-dom-lightbox-wrapper',   // popup domination
+            'jqmWindow'                     // jqm ads
         ];
         var ids = [
-            'pty_pkg',				        // pippity poppity
-            'mod_wrapper',			        // modal wrapper
-            'AdSpotMovie',			        // AdSpot
-            'shortTail_D30_modal'	        // short tail
+            'pty_pkg',                      // pippity poppity
+            'mod_wrapper',                  // modal wrapper
+            'AdSpotMovie',                  // AdSpot
+            'shortTail_D30_modal',          // short tail
+            'cf_slideout_container',        //
+            'lbOverlay',
+            'lbCenter',
+            'lbBottomContainer',
+            'TB_window',
+            'TB_overlay'
         ];
         var childids = [
-            'rm_modal',		                // ringtone maker
+            'rm_modal'                      // ringtone maker
         ];
 
         window.setInterval (function () {
