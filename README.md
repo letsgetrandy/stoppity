@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/letsgetrandy/stoppity.svg)](https://travis-ci.org/letsgetrandy/stoppity)
+[![Codacy Badge](https://www.codacy.com/project/badge/764c3357823a4db8863acbb1fe1a3cb5)](https://www.codacy.com/app/letsgetrandy/stoppity)
+
 Stoppity Poppity
 ================
 
