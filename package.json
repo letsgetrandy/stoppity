@@ -4,7 +4,7 @@
   "description": "Browser plugin to stop lightboxes and such",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "mocha",
     "build-chrome": "cjsc ./common/stoppity-chrome.js -o ./chrome/stoppity.js",
     "build-firefox": "cjsc ./common/stoppity-firefox.js -o ./firefox/chrome/content/overlay.js"
   },
