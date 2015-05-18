@@ -1,5 +1,9 @@
 .DS_Store
 *.pem
-*.xpi
-*.crx
+npm-debug.log
 node_modules
+stoppity.crx
+stoppity.xpi
+stoppity.zip
+chrome/stoppity.js
+firefox/chrome/content/overlay.js
