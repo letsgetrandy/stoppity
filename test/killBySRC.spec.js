@@ -10,8 +10,7 @@ describe('killBySRC', function() {
             }
         };
 
-        var killBySRC = require('../src/killBySRC');
-        //
+        require('../src/killBySRC');
     });
 });
 

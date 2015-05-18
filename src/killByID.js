@@ -13,7 +13,7 @@ var ids = [
 ];
 
 module.exports = function() {
-    var el;
+    var id, el;
     for (id = 0; id < ids.length; id++) {
         el = window.document.getElementById(ids[id]);
         if (el) {

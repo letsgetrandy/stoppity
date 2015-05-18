@@ -18,7 +18,6 @@ var stoppity = {
 
     contentLoad: function (event) {
         var doc = event.originalTarget;
-        var wnd = doc.defaultView;
 
         require('killBySRC');
 

@@ -5,14 +5,15 @@ describe('killByChildID', function() {
     beforeEach(function() {
         global.window = {
             document: {
-                getElementByClassName: function() {
-                    return [];
+                getElementById: function() {
+                    return null;
                 }
             }
         };
     });
+
     it('should ...', function() {
-        //
+        killByChildID();
     });
 });
 

@@ -4,7 +4,7 @@ describe('killByClass', function() {
     beforeEach(function() {
         global.window = {
             document: {
-                getElementByClassName: function() {
+                getElementsByClassName: function() {
                     return [];
                 }
             }
@@ -12,7 +12,7 @@ describe('killByClass', function() {
     });
 
     it('should ...', function() {
-        //
+        killByClass();
     });
 });
 

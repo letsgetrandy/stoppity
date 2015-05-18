@@ -5,7 +5,7 @@ var childIDs = [
 ];
 
 module.exports = function() {
-    var el;
+    var id, el;
     for (id = 0; id < childIDs.length; id++) {
         el = window.document.getElementById(childIDs[id]);
         if (el) {

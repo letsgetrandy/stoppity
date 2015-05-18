@@ -5,7 +5,7 @@ describe('clickByClass', function() {
     beforeEach(function() {
         global.window = {
             document: {
-                getElementByClassName: function() {
+                getElementsByClassName: function() {
                     return [];
                 }
             }
@@ -13,7 +13,7 @@ describe('clickByClass', function() {
     });
 
     it('should ...', function() {
-        //
+        clickByClass();
     });
 });
 

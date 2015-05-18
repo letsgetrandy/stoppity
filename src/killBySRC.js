@@ -11,8 +11,9 @@ var scripts = window.document.getElementsByTagName('script');
 for (var scriptfile in scripts) {
     for (var pattern in patterns) {
         var rx = new RegExp(pattern);
-        if (rx.test(scriptfile.src))
+        if (rx.test(scriptfile.src)) {
             scriptfile.src = '';
+        }
     }
 }
 
