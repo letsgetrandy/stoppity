@@ -2,3 +2,4 @@
 *.pem
 *.xpi
 *.crx
+node_modules

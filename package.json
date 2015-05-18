@@ -1,0 +1,32 @@
+{
+  "name": "stoppity",
+  "version": "2.0.0",
+  "description": "Browser plugin to stop lightboxes and such",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build-chrome": "cjsc ./common/stoppity-chrome.js -o ./chrome/stoppity.js",
+    "build-firefox": "cjsc ./common/stoppity-firefox.js -o ./firefox/chrome/content/overlay.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/letsgetrandy/stoppity.git"
+  },
+  "keywords": [
+    "firefox",
+    "chrome",
+    "popups",
+    "lightbox"
+  ],
+  "author": "Randy Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/letsgetrandy/stoppity/issues"
+  },
+  "homepage": "https://github.com/letsgetrandy/stoppity",
+  "devDependencies": {
+    "cjsc": "^1.0.3",
+    "commonjs": "0.0.1",
+    "mocha": "^2.2.5"
+  }
+}

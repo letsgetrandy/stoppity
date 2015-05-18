@@ -5,7 +5,7 @@ EXTENSION = "$(DIR)/stoppity"
 PEMFILE = "$(PARENT)/stoppity.pem"
 
 
-.PHONY: all clean crx xpi
+.PHONY: all clean crx xpi npm
 
 all: | clean crx xpi
 
@@ -14,15 +14,30 @@ clean:
 	rm -f stoppity.zip
 	rm -f stoppity.xpi
 
-crx:
+crx: npmcrx
 	@echo "building for Chrome..."
 	cp -R chrome stoppity
 	$(CHROME_APP) --pack-extension=$(EXTENSION) --pack-extension-key=$(PEMFILE) stoppity.crx
 	zip -r stoppity stoppity/
 	rm -rf stoppity
 
-xpi:
+xpi: npmxpi
 	@echo "building for Firefox..."
 	cp -R firefox stoppity
 	zip -r stoppity.xpi stoppity
 	rm -rf stoppity
+
+npm:
+	@echo "checking for required npm packages..."
+	npm install
+	@echo "running tests"
+	npm test
+
+npmcrx: npm
+	@echo "building for chrome..."
+	npm run build-chrome
+
+npmxpi: npm
+	@echo "building for firefox..."
+	npm run build-firefox
+
