@@ -17,8 +17,6 @@ var stoppity = {
     },
 
     contentLoad: function (event) {
-        var doc = event.originalTarget;
-
         require('killBySRC');
 
         var clickByClass = require('clickByClass'),

@@ -11,9 +11,9 @@ automated in-page modal lightbox popups.
 Directory Structure
 -------------------
 
-/chrome/ --> chrome browser extension
+`/chrome/` --> chrome browser extension
 
-/firefox/ --> firefox browser extension
+`/firefox/` --> firefox browser extension
 
 
 to build, just type:  `make`
