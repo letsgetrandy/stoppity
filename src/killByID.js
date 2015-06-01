@@ -5,10 +5,12 @@ var ids = [
     'AdSpotMovie',                  // AdSpot
     'shortTail_D30_modal',          // short tail
     'cf_slideout_container',        //
-    'lbOverlay',
+    'lbOverlay',                    //
     'lbCenter',
     'lbBottomContainer',
-    'TB_window',
+    'simplemodal-overlay',          // SimpleModal
+    'simplemodal-container',
+    'TB_window',                    // 
     'TB_overlay'
 ];
 
