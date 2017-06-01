@@ -4,19 +4,19 @@
     <em:id>stoppity@yearlyglot.com</em:id>
     <em:type>2</em:type>
     <em:name>Stoppity Poppity</em:name>
-    <em:version>1.4</em:version>
+    <em:version>1.5</em:version>
     <em:creator>yearlyglot</em:creator>
     <em:contributor></em:contributor>
-	<em:description>
-		<p>This plugin is intended to remove those irritating lightbox popups that interrupt you while you're trying to read a blog or a web site.</p>
-		<p>Current version blocks the following types of lightbox popups:</p>
-		<ul>
-			<li>Pippity Poppity</li>
-			<li>Ringtone Maker</li>
-			<li>Popup Domination</li>
-			<li>AdSpot Modal</li>
-		</ul>
-	</em:description>
+    <em:description>
+        <p>This plugin is intended to remove those irritating lightbox popups that interrupt you while you're trying to read a blog or a web site.</p>
+        <p>Current version blocks the following types of lightbox popups:</p>
+        <ul>
+            <li>Pippity Poppity</li>
+            <li>Ringtone Maker</li>
+            <li>Popup Domination</li>
+            <li>AdSpot Modal</li>
+        </ul>
+    </em:description>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->

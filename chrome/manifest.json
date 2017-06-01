@@ -3,7 +3,7 @@
 
     "name": "Stoppity Poppity",
     "description": "Stop those irritating popups that interrupt you when you're reading.",
-    "version": "2.0",
+    "version": "2.1",
 
     "permissions": [
         "cookies", "tabs"

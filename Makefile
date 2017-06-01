@@ -24,7 +24,8 @@ crx: npmcrx
 xpi: npmxpi
 	@echo "building for Firefox..."
 	cp -R firefox stoppity
-	zip -r stoppity.xpi stoppity
+	cd stoppity; zip -r stoppity.xpi *; cd ..
+	mv stoppity/stoppity.xpi .
 	rm -rf stoppity
 
 npm:
